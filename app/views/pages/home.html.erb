@@ -1,2 +1,229 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner">
+  <div class="disclaimer">FEEL THE SENSATION OF</div>
+  <div class="disclaimer"><strong>CABOCLINHO</strong> ANYWHERE</div>
+  <div class="note">
+    Wide selection of RITUS with the best audio and visual quality.
+  </div>
+  <div>
+    <%= link_to "Write a story", academy_path, class: "btn btn-ghost" %>
+    <%= link_to "Learn more", "#", class: "btn btn-ghost" %>
+  </div>
+</div>
+
+<div class="regions">
+  <div class="regions active">NORTHEAST</div>
+  <div class="regions">NORTH</div>
+  <div class="regions">SOUTHEAST</div>
+  <div class="regions">SOUTH</div>
+  <div class="regions">MIDWEST</div>
+</div>
+
+<div class="wrapper">
+  <section id="section1">
+    <a href="#section3"><</a>
+    <div class="item">
+      <%= image_tag("cururu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("pezinho.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section3">›</a>
+  </section>
+  <section id="section2">
+    <a href="#section1"><</a>
+    <div class="item">
+      <%= image_tag("tecnobrega.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("northeast_maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("passistas.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section3">›</a>
+  </section>
+  <section id="section3">
+    <a href="#section2"><</a>
+    <div class="item">
+      <%= image_tag("northeast_maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("cururu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("tecnobrega.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section1">›</a>
+  </section>
+</div>
+
+<div class="conteudo" >DOCUMENTÁRIOS</div>
+
+<div class="wrapper">
+  <section id="section4">
+    <a href="#section6"><</a>
+    <div class="item">
+      <%= image_tag("cururu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("pezinho.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section6">›</a>
+  </section>
+  <section id="section5">
+    <a href="#section4"><</a>
+    <div class="item">
+      <%= image_tag("tecnobrega.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("northeast_maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("passistas.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section6">›</a>
+  </section>
+  <section id="section6">
+    <a href="#section5"><</a>
+    <div class="item">
+      <%= image_tag("northeast_maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("cururu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("tecnobrega.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section4">›</a>
+  </section>
+</div>
+
+<div class="conteudo">MUSICAIS</div>
+
+<div class="wrapper">
+  <section id="section1">
+    <a href="#section3"><</a>
+    <div class="item">
+      <%= image_tag("cururu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("pezinho.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section3">›</a>
+  </section>
+  <section id="section2">
+    <a href="#section1"><</a>
+    <div class="item">
+      <%= image_tag("tecnobrega.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("northeast_maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("passistas.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section3">›</a>
+  </section>
+  <section id="section3">
+    <a href="#section2"><</a>
+    <div class="item">
+      <%= image_tag("northeast_maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("cururu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("tecnobrega.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section1">›</a>
+  </section>
+</div>
+
+<div class="conteudo">BIOGRAFIAS</div>
+
+<div class="wrapper">
+  <section id="section1">
+    <a href="#section3"><</a>
+    <div class="item">
+      <%= image_tag("cururu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("pezinho.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section3">›</a>
+  </section>
+  <section id="section2">
+    <a href="#section1"><</a>
+    <div class="item">
+      <%= image_tag("tecnobrega.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("northeast_maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("passistas.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section3">›</a>
+  </section>
+  <section id="section3">
+    <a href="#section2"><</a>
+    <div class="item">
+      <%= image_tag("northeast_maracatu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("jongo.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("cururu.png", width: 100, height: 100)%>
+    </div>
+    <div class="item">
+      <%= image_tag("tecnobrega.png", width: 100, height: 100)%>
+    </div>
+    <a href="#section1">›</a>
+  </section>
+</div>

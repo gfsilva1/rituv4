@@ -1,0 +1,39 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-image: url(passistas.png);
+  height: 50vh;
+  justify-content: center;
+}
+
+.disclaimer {
+  margin-left: 60px;
+  color: white;
+  font-size: 2rem;
+}
+
+.note {
+  color: gray;
+  margin-left: 60px;
+}
+
+.btn-ghost {
+  color: #70AF77;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  margin-left: 60px;
+}
+
+.btn-ghost:hover {
+  background: #70AF77;
+  color: white;
+  opacity: 1s;
+}
+
+.disclaimer strong {
+  color: #65CB81;
+}
