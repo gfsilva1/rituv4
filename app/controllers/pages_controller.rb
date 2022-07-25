@@ -4,4 +4,8 @@ class PagesController < ApplicationController
 
   def academy
   end
+
+  def modal
+  end
+
 end

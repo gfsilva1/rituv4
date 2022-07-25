@@ -3,6 +3,7 @@
 $duration: 250ms;
 
 .wrapper {
+  margin-left: 60px;
   display: grid;
   grid-template-columns: repeat(3, 100%);
   overflow: hidden;

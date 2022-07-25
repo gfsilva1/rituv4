@@ -9,7 +9,9 @@ body {
   display: flex;
   color: white;
   margin-left: 60px;
+  font-weight: bold;
 }
+
 
 .regions .regions {
   color: white;
@@ -23,10 +25,13 @@ body {
 
 .regions .regions.active {
   opacity: 1;
-  border-bottom: 3px solid #555555;
+  border-bottom: 3px solid #70AF77;
 }
 
 .conteudo {
   color:white;
   margin-left: 60px;
+  font-weight: bold;
+  border-bottom: 3px solid #70AF77;
+  width: 40px;
 }

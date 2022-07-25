@@ -4,12 +4,13 @@
   background-image: url(passistas.png);
   height: 50vh;
   justify-content: center;
+  font-weight: bold;
 }
 
 .disclaimer {
   margin-left: 60px;
   color: white;
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 
 .note {
@@ -26,6 +27,7 @@
   opacity: 0.6;
   transition: opacity 0.3s ease;
   margin-left: 60px;
+  margin-top: 2rem;
 }
 
 .btn-ghost:hover {
