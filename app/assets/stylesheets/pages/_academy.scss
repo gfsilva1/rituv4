@@ -46,10 +46,7 @@
 
 }
 
-h1 {
-  color: gray;
-  font-size: 15px;
-}
+
 
 .note-1 {
   display: flex;
@@ -86,10 +83,18 @@ h1 {
 .avatars {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 120px;
 }
 
 .avatar img {
-  width: 80px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+}
+
+
+.foot {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
 }

@@ -91,12 +91,61 @@
   <h1>Meet your mister</h1>
   <div class="note-1">Subscribe to our newsletter and swing with us!</div>
   <div class="avatars">
-    <div class="avatar"><%= image_tag("flute.jpg") %></div>
-    <div class="avatar"><%= image_tag("piano.jpg") %></div>
-    <div class="avatar"><%= image_tag("sax.jpg") %></div>
-    <div class="avatar"><%= image_tag("bass.jpg") %></div>
+    <div class="avatar">
+      <%= image_tag("flute.jpg") %>
+      <h1>Nina Lemos</h1>
+      <p> Bass guitar</p>
+    </div>
+    <div class="avatar">
+      <%= image_tag("piano.jpg") %>
+      <h1>Nina Lemos</h1>
+      <p> Bass guitar</p>
+    </div>
+    <div class="avatar">
+      <%= image_tag("sax.jpg") %>
+      <h1>Nina Lemos</h1>
+      <p> Bass guitar</p>
+    </div>
+    <div class="avatar">
+      <%= image_tag("bass.jpg") %>
+      <h1>Nina Lemos</h1>
+      <p> Bass guitar</p>
+    </div>
   </div>
+  <div class="note-1">
+    <%= link_to "All Misters", "#", class: "btn btn-ghost" %>
+  </div>
+</div>
+
+<div class="faixa">
+  <div class="lessons">Want to become a mister?</div>
+  <div class="note-1">If you are a experienced high level musician</div>
   <div class="note-1">
     <%= link_to "All courses", "#", class: "btn btn-ghost" %>
   </div>
 </div>
+
+<footer>
+  <div class="foot">
+    <%= link_to image_tag("logo.svg", width: 60), root_path %>
+    <div>
+      <h1>Content</h1>
+      <p>Courses</p>
+      <p>Lessons</p>
+      <p>Tools</p>
+    </div>
+    <div>
+      <h1>Community</h1>
+      <p>Instructors</p>
+      <p>For enterprises</p>
+      <p>Become a Mister</p>
+    </div>
+    <div>
+      <h1>Company</h1>
+      <p>About</p>
+      <p>Privacy Policy</p>
+      <p>Terms of use</p>
+      <p>FAQ</p>
+    </div>
+  </div>
+</footer>

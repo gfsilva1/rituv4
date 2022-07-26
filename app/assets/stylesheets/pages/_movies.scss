@@ -1,0 +1,68 @@
+.filme {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  margin-left: 60px;
+}
+
+.cart {
+  width: 300px;
+  background: white;
+  border-radius: 8px;
+}
+
+.cart h1{
+  color:black;
+  padding: 5px;
+}
+
+.cardinho {
+  background: #DCFAE3;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cardinho-grey {
+  background: rgb(224, 219, 219);
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #65CB81;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.mini {
+  display: flex;
+  background: white;
+  width: 40vw;
+  border-radius: 8px;
+}
+
+h2 {
+  color:#3C7C46;
+}
+
+.description {
+  width: 500px;
+  margin-top: 40px;
+  background: white;
+  border-radius: 8px;
+}
+
+.section2 {
+  display: flex;
+  margin-left: 60px;
+}
+
+
+.cardireita {
+  margin-left: 90px;
+  margin-top: 20px;
+}

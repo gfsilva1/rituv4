@@ -8,4 +8,6 @@ class PagesController < ApplicationController
   def modal
   end
 
+  def movies
+  end
 end
