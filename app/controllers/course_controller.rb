@@ -12,8 +12,10 @@ class CourseController < ApplicationController
   end
 
   def create
-    @course = Course.new(params[:course])
-    @course.save # Will raise ActiveModel::ForbiddenAttributesError
+    @course = Course.new(params:course)
+    @course.save
+
+    redirect_to
   end
 
 end
