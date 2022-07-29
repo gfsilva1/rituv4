@@ -5,10 +5,9 @@
     Wide selection of RITUS with the best audio and visual quality.
   </div>
   <div>
-    <%= link_to "#", class: "btn btn-ghost", data: { toggle: "modal", target: "#exampleModal" } do %>
-      Scrumbles
-    <% end %>
-    <%= link_to "Learn more",  movies_path, class: "btn btn-ghost" %>
+    <%= link_to "Academy",  academy_path, class: "btn btn-ghost" %>
+
+    <%= link_to "Movies",  movies_path, class: "btn btn-ghost" %>
   </div>
 </div>
 
@@ -230,19 +229,26 @@
   </section>
 </div>
 
-
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel" >
+          Doc
+        </h5>
+        <button>Watch</button>
+        <p>Description</p>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <h1>Títulos semelhantes</h1>
+        <div class="cards">
+          <div class=card>
+            <%= image_tag("passistas.png", width: 70, height: 50) %>
+            <h1>we</h1>
+          </div>
+
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
