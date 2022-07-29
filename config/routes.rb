@@ -5,12 +5,9 @@ Rails.application.routes.draw do
   get 'modal', to: "pages#modal"
   get 'movies', to: "pages#movies"
   get 'course', to: "course#index"
-  get "course/:id", to: "course#show"
   get "course/new", to: "course#new"
   post "course", to: "course#create"
+  get "course/:id", to: "course#show"
 
 
-
-  # Defines the root path route ("/")
-  # root "articles#index"
 end

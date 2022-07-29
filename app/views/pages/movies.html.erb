@@ -2,24 +2,24 @@
   <div><iframe width="520" height="315"
 src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe></div>
-  <div class="cart">
+  <div class="cart" data-controller="turbo">
     <h1>Bundle discount</h1>
-    <div class="cardinho">
-      <i class="fa-regular fa-square-check"></i>
-      Fully course
+    <div class="cardinho" >
+      <input type="checkbox" name="" id="full" data-action="change->turbo#toggle">
+      <label for="Full">Full</label>
     </div>
     <h1>Course in parts</h1>
     <div class="cardinho-grey">
-      <i class="fa-regular fa-square"></i>
-      Stuffy
+      <input type="checkbox" name="" id="stuff" data-turbo-target="box">
+      <label for="Stuff">Stuff</label>
     </div>
     <div class="cardinho-grey">
-      <i class="fa-regular fa-square"></i>
-      Stuffy
+      <input type="checkbox" name="" id="stuff" data-turbo-target="box">
+      <label for="Stuff">Stuff</label>
     </div>
     <div class="cardinho-grey">
-      <i class="fa-regular fa-square"></i>
-      Stuffy
+      <input type="checkbox" name="" id="stuff" data-turbo-target="box">
+      <label for="Stuff">Stuff</label>
     </div>
     <button>ADD TO CHART</button>
   </div>
