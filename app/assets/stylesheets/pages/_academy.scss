@@ -40,9 +40,11 @@
 
 .pic-card {
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
   background-size: cover;
   border-radius: 8px;
+  height: 200px;
+  align-items: flex-end;
 
 }
 
@@ -52,6 +54,7 @@
   display: flex;
   color: gray;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 .chamada{
@@ -75,6 +78,11 @@
   align-items: center;
 }
 
+.email-content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
 
 .mister {
   background:#FAFFFC;
@@ -97,4 +105,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   color: white;
+}
+
+h1 {
+  color:gray;
 }
