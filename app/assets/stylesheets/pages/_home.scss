@@ -37,11 +37,50 @@ body {
 }
 
 .modal-header {
+  display: flex;
+  flex-direction: column;
   background-image: url("cururu.png");
   background-size: cover;
   height: 20vh;
+  padding: 0;
+  align-items: flex-start;
+
 }
 
 .modal-body {
   background: #012607E6;
+}
+
+.modal-title {
+  margin-left: 60px;
+
+}
+
+.cards-modal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 60px;
+}
+
+
+.card-modal {
+  width: 100px;
+  height: 200px;
+  border-radius: 8px;
+  color: white;
+  background-color: grey;
+
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: column;
+    background:#012607E6;
+}
+
+.footer {
+  color:whitesmoke;
 }

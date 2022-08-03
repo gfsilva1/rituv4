@@ -1,0 +1,2 @@
+class NortheastGeneral < ApplicationRecord
+end

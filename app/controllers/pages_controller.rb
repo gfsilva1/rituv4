@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def home
+    @northeast_general = NortheastGeneral.all
   end
 
   def academy
