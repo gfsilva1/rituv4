@@ -1,12 +1,14 @@
 {
-  "name": "app",
+  "name": "rituv4",
   "private": "true",
   "dependencies": {
     "@hotwired/stimulus": "^3.0.1",
     "@hotwired/turbo-rails": "^7.1.0",
     "@popperjs/core": "^2.11.0",
-    "bootstrap": "^5.1.3",
+    "bootstrap": "^5.2.0",
     "esbuild": "^0.14.5",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
     "sass": "^1.45.0"
   }
 }
