@@ -12,6 +12,3 @@ eagerLoadControllersFrom("controllers", application)
 
 import TurboController from "./turbo_controller.js"
 application.register("turbo", TurboController)
-
-import ModalController from "./modal_controller.js"
-application.register("modal", ModalController)
