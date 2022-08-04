@@ -1,16 +1,28 @@
 {
-  "requires": true,
-  "lockfileVersion": 1,
+  "name": "rituv4",
+  "version": "1.0.0",
+  "description": "Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfsilva1/rituv4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfsilva1/rituv4/issues"
+  },
+  "homepage": "https://github.com/gfsilva1/rituv4#readme",
   "dependencies": {
-    "@popperjs/core": {
-      "version": "2.11.5",
-      "resolved": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.5.tgz",
-      "integrity": "sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw=="
-    },
-    "bootstrap": {
-      "version": "5.2.0",
-      "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.2.0.tgz",
-      "integrity": "sha512-qlnS9GL6YZE6Wnef46GxGv1UpGGzAwO0aPL1yOjzDIJpeApeMvqV24iL+pjr2kU4dduoBA9fINKWKgMToobx9A=="
-    }
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
+    "popper": "^1.0.1"
   }
 }
